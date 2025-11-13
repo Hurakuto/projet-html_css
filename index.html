@@ -3,19 +3,31 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Titre de l'onglet-->
     <title>Keithston</title>
+
+    <!--Feuilles de style-->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
+
+    <!--Icône de l'onglet-->
     <link rel="icon" type="image/png" href="images/keithston.svg">
+
+    <!--Importation des polices via Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+    <!--En-tête du site avec le menu burger disponible que sur téléphone et tablette-->
     <header>
         <img id="top-logo" src="images/logo.svg" alt="">
         <img id="menu-hamburger" src="images/menu_h.svg" alt="">
+        
+        <!--Nav principal-->
         <nav id="menu">
             <ul>
             <li><a href="index.html" id="diff_color">Accueil</a></li>
@@ -24,9 +36,12 @@
             <li><a href="index.html">Services</a></li>
             </ul>
         </nav>
+
     </header>
 
     <main>
+
+        <!--Section d'introduction (et pour commander)-->
         <section id="commander">
 
             <img id="img_commander" src="images/fond_commander.svg" alt="">
@@ -39,10 +54,12 @@
 
         </section>
 
-        
+        <!--Section des produits phares-->
         <h2 id="nos_top_produits">Nos Tops Produits</h2>
         <section id="top_produits">
 
+            <!--Chaque div contient un produit différent (6 produits)-->
+            <!--Même type d'élément = même classe -> Nom des produits, etc-->
             <div class="top_produit">
                 <img class="img_fond" src="images/fond_top_produits.svg" alt="">
                 <img class="food-top_produit" id="pain_complet" src="images/pain_complet.svg" alt="">
@@ -98,6 +115,7 @@
             </div>
         </section>
 
+        <!--Section des réductions/offres (publicité)-->
         <section id="reduc">
             <img class="img_fond" src="images/fond_reduc.svg" alt="">            
             <div>
@@ -107,17 +125,22 @@
             <button class="inter" name="savoir+">En savoir plus</button>
         </section>
 
+        <!--Section découverte des produits-->
         <section id="discover">
             <h2>Découvrir</h2>
+
+            <!--Nav permettant d'accéder à d'autres types de produits-->
             <nav>
             <ul>
-                <li id="discover_gateaux">Gâteaux</li>
-                <li>Muffins</li>
-                <li>Croissants</li>
-                <li>Pains</li>
-                <li id="tartes-discover">Tartes</li>
+                <li id="discover_gateaux"><a href="">Gâteaux</a></li>
+                <li><a href="">Muffins</a></li>
+                <li><a href="">Croissants</a></li>
+                <li><a href="">Pains</a></li>
+                <li id="tartes-discover"><a href="">Tartes</a></li>
             </ul>
             </nav>
+
+            <!--Liste de produits-->
             <div>
             <img src="images/muffin.svg" alt="">
             <img src="images/gateau_fruits_rouges.svg" alt="">
@@ -128,6 +151,7 @@
             </div>
         </section>
 
+        <!--Section "A Propos" (publicité)-->
         <section id="a_propos">
             <img class="img_fond" src="images/fond_a_propos.svg" alt="">            
             <div>
@@ -137,9 +161,12 @@
             <button class="inter" name="savoir+">Lire plus</button>
         </section>
 
+        <!--Section de produits gourmands-->
         <h2 id="h2_margin-top">Petits Plaisirs</h2>
         <section id="petits_plaisirs">
 
+            <!--Chaque div contient un produit différent (3 produits)-->
+            <!--Même type d'éléement = même classe -> Nom des produits, etc-->
             <div class="petit_plaisir">
                 <img class="img-petit_plaisir" src="images/pate_feuilletee.svg" alt="">
                 <p class="nom-petit_plaisir">Pâte Feuilletée</p>
@@ -160,10 +187,13 @@
 
         </section>
     </main>
+
+    <!--Pied de page-->
     <footer>
         <img class="img_fond" src="images/fond_footer.svg" alt="">
         <img id="logo" src="images/logo_footer.svg" alt="">
 
+        <!--Section des réseaux sociaux-->
         <section id="follow_us">
             <h3 class="inter">Suivez-nous</h3>
             <div id="reseaux">
@@ -174,11 +204,13 @@
             </div>
         </section>
 
+        <!--Section des contacts-->
         <section class="contacts">
             <h3 class="inter">A propos</h3>
             <p>02 38  00 00 00<br>bakery@coda.school<br>24 Rue Jeanne d’Arc<br>45000 Orléans</p>
         </section>
 
+        <!--Section qui reprend le nav de l'en-tête-->
         <section class="explorer">
             <h3 class="inter">Explorer</h3>
             <a href="index.html" id="f_accueil">Accueil</a>
@@ -187,9 +219,12 @@
             <a href="" id="f_services">Services</a>
         </section>
 
+        <!--Section des actualités-->
         <section class="actualites">
             <h3 class="inter">Actualités</h3>
 
+            <!--Chaque div contient une actualité différente (2 actualités)-->
+            <!--Même type d'élément = même classe -> Nom des actualités, etc-->
             <div id="nouveau_delice">
                 <img src="images/nouveau_delice.svg" alt="">
                 <p class="date">14 juin 2024</p>
@@ -203,6 +238,7 @@
             </div>
         </section>
 
+        <!--Les droits d'auteurs (100% véridique)-->
         <p class="inter" id="f_fin">© 2025 Coda Bakery.<br>Tous droits réservés</p>
 
     </footer>
