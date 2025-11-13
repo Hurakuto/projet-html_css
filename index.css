@@ -169,7 +169,6 @@ button:focus{
     color: white;
     font-family: Inter;
     font-size: clamp(0.7rem, 3vw, 8rem);
-    font-weight:300px;
 }
 
 .top_produits-i{
@@ -197,7 +196,6 @@ button:focus{
     color: white;
     font-family: Inter;
     font-size: clamp(0.7rem, 3vw, 8rem);
-    font-weight: 200px;  
 }
 
 .top_produits-add{
@@ -213,7 +211,6 @@ button:focus{
     gap:10px;
     font-family: Inter;
     font-size: clamp(0.7rem, 3vw, 8rem);
-    font-weight: 200px; 
 }
 
 #baguette_campagne{
@@ -567,7 +564,7 @@ h3{
     display: none;
 }
 
-@media only screen and (min-width:575px) and (max-width:991px){
+@media screen and (min-width:575px) and (max-width:992px){
 
 .top_produit{
     margin-left: 15%;
@@ -604,7 +601,7 @@ h3{
 }
 
 #reduc div{
-    margin-top: -60%;
+    margin-top: -70%;
 }
 
 #reduc div h2{
@@ -633,7 +630,7 @@ h3{
 }
 
 #a_propos div{
-    margin-top: -50%;
+    margin-top: -60%;
 }
 
 #a_propos div h2{
@@ -664,12 +661,83 @@ h3{
 }
 
 .prix-petit_plaisir{
-    margin-left: -10%;
+    margin-left: 60%;
+}
+
+
+footer h3{
+    font-size: clamp(2rem, 6vw, 8rem);
+    margin-left: 37.5%;
+}
+
+#follow_us h3{
+    font-size: clamp(2rem, 6vw, 8rem);
+    margin-left: 32%;
+}
+
+#reseaux img{
+    height: 40%;
+}
+
+.explorer h3{
+    margin-left: 38%;
+}
+
+.actualites h3{
+    margin-left: 36%;
+}
+
+#f_fin{
+    margin-top: -15%;
+    margin-left: 35%;
+    font-size: clamp(1rem, 3vw, 8rem);
+}
+
+
+}
+
+@media screen and (min-width:699px) and (max-width:992px){
+
+#reduc div{
+    margin-top: -60%;
+}
+
+#a_propos div{
+    margin-top: -50%;
 }
 
 }
 
-@media only screen and (min-width:992px){
+@media screen and (min-width:829px) and (max-width:992px){
+#reduc div{
+    margin-top: -55%;
+}
+
+#reduc button{
+    margin-top: -15%;
+}
+}
+
+@media screen and (min-width:909px) and (max-width:992px){
+
+#a_propos div{
+    margin-top: -43%;
+}
+
+#a_propos div p{
+    margin-top: 5%;
+}
+
+#reduc div{
+    margin-top: -51%;
+}
+
+#reduc button{
+    margin-top: -12%;
+}
+}
+
+@media only screen and (min-width:993px){
 
 #menu{
     margin: 0;
