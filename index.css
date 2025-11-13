@@ -42,14 +42,20 @@ section, div, h1, h2, h3, h4, h5, button{
     width: 6%; 
 }
 
+#menu ul{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
 #menu {
-    top:1%;
-    margin-left: 59%;
+    top:1.5%;
+    margin-left: 20%;
     position: absolute;
     display: none;
     border-radius: 20px;
     padding: 5px 15px;
-    gap: 10px;
+    gap: 12px;
     z-index: 2;
     background-color: rgba(60, 60, 60, 0.297);
     color: white;
@@ -69,7 +75,7 @@ section, div, h1, h2, h3, h4, h5, button{
 
 #menu a{
     text-decoration: none;
-    font-size: clamp(0.8rem, 5vw, 8rem);
+    font-size: clamp(0.4rem, 3.5vw, 8rem);
 }
 
 button:focus{
@@ -384,13 +390,13 @@ button:focus{
     margin-bottom: 5%;
 }
 
-#nom-petit_plaisir{
+.nom-petit_plaisir{
     margin-top: 5%;
     font-size: clamp(1rem, 5vw, 8rem);
     position: absolute;
 }
 
-#prix-petit_plaisir{
+.prix-petit_plaisir{
     margin-top: 5%;
     position: absolute;
     margin-left: 70%;
@@ -561,9 +567,105 @@ h3{
     display: none;
 }
 
-@media only screen and (min-width:575px){
+@media only screen and (min-width:575px) and (max-width:991px){
 
+.top_produit{
+    margin-left: 15%;
+    width: 70vw;
+    margin-top: -5%;
+    margin-bottom: -25%;
+}
 
+.food-top_produit{
+    width: 35%;
+    margin-top: -70%;
+    margin-left: 20%;
+}
+
+#baguette_campagne{
+    margin-left: 10%;
+}
+
+.top_produits-prix, .nom-top_produits{
+    margin-left: 5%;
+}
+
+.nom-top_produits{
+    margin-top: -30%;
+}
+
+.top_produits-add{
+    margin-top:-30%;
+    margin-left: 45%;
+}
+
+#reduc{
+    height: 80vh;
+}
+
+#reduc div{
+    margin-top: -60%;
+}
+
+#reduc div h2{
+    font-size: clamp(2rem, 5vw, 8rem);
+}
+
+#reduc div p{
+    margin-top: 10%;
+    font-size: clamp(1.5rem, 4vw, 8rem);
+}
+
+#reduc button{
+    margin-left: -17.5%;
+    width: 35%;
+    height: 15%;
+}
+
+#discover img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+#a_propos{
+    height: 80vh;
+    margin-bottom: 5%;
+}
+
+#a_propos div{
+    margin-top: -50%;
+}
+
+#a_propos div h2{
+    font-size: clamp(2rem, 5vw, 8rem);
+}
+
+#a_propos div p{
+    margin-top: 10%;
+    font-size: clamp(1.5rem, 4vw, 8rem);
+}
+
+#a_propos button{
+    margin-top: -10%;
+    margin-left: -17.5%;
+    width: 35%;
+    height: 15%;
+}
+
+#petits_plaisirs h2{
+    margin-bottom: 10%;
+}
+
+.petit_plaisir{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 0%;
+    font-family: Inter;
+}
+
+.prix-petit_plaisir{
+    margin-left: -10%;
+}
 
 }
 
