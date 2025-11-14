@@ -57,13 +57,15 @@ section, div, h1, h2, h3, h4, h5, button{
     padding: 5px 15px;
     gap: 12px;
     z-index: 2;
+    opacity: 0;
     background-color: rgba(60, 60, 60, 0.297);
     color: white;
+    display: flex;
     transition: all 0.5s ease;
 }
 
 #menu.active {
-    display: flex;
+    opacity: 1;
 }
 
 #menu ul li{
@@ -548,7 +550,7 @@ h3{
 
 .actualites h3{
     margin-top: -110%;
-    margin-left: 27.5%;
+    margin-left: 29%;
 }
 
 .actualites img{
@@ -593,10 +595,13 @@ h3{
 #f_fin{
     position: absolute;
     color: #737373;
+    width: 60%;
     font-weight: 600;
     margin-top: -20%;
     margin-left: 25%;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: clamp(1rem, 5vw, 10rem);
 }
 
@@ -734,13 +739,14 @@ footer h3{
 }
 
 .actualites h3{
-    margin-left: 36%;
+    margin-left: 37.5%;
 }
 
 #f_fin{
     margin-top: -15%;
-    margin-left: 35%;
-    font-size: clamp(1rem, 3vw, 8rem);
+    margin-left: 32.5%;
+    padding-right: 20%;
+    font-size: clamp(1rem, 3.5vw, 8rem);
 }
 
 
@@ -959,6 +965,10 @@ footer h3{
     margin-top:-30%;
 }
 
+#discover a {
+    text-decoration: none;
+}
+
 #discover div{
     margin-top: -5%;
     width: 100%;
@@ -1046,4 +1056,124 @@ footer h3{
     margin-left: 25%;
 }
 
+footer {
+    margin: 0; padding: 0;
+    margin-top: 5%;
+    height: 49.5vw;
+}
+
+#logo{
+    margin: 0; padding: 0;
+    margin-top: -47.5%;
+    margin-left: 10%;
+    width: 10%;
+}
+
+footer p, #nouveau_delice, #nouveau_delice img, #nouveau_delice p, #pain_au_raisin, #pain_au_raisin img, #pain_au_raisin .nom-actualites, #pain_au_raisin .date, .actualites div img, .contacts p, footer h3, #reseaux,.explorer h3, .actualites h3,  footer a, #follow_us h3, #f_accueil, #f_blog, #f_contact, #f_services{
+    margin: 0; padding: 0;
+    gap: 0;
+}
+
+#follow_us{
+    position: absolute;
+    z-index: 1;
+    margin-left: 5%;
+    width: 90%;
+    height: 9vw;
+    margin-top: -45%;
+    border-bottom: solid 2px #E9BD8D;
+}
+
+#follow_us h3{
+    margin-top: 3%;
+    margin-left: 50%;
+    font-size: clamp(0.5rem, 2vw, 8rem) !important;
+}
+
+#reseaux{
+    border-bottom: none;
+    width: 30%;
+    margin-top: -7%;
+    margin-left: 62.5%;
+}
+
+.contacts h3, .explorer h3, .actualites h3{
+    margin-left: 7%;
+    margin-top: -32.5%;
+    font-size: clamp(1rem, 3.5vw, 10rem);
+}
+
+.contacts p{
+    margin-top: -27.5%;
+    margin-left: 7%;
+    font-size: clamp(0.5rem, 2vw, 8rem);
+}
+
+.explorer h3{
+    margin-left: 35%;
+}
+
+.explorer a{
+    font-size: clamp(0.5rem, 2vw, 8rem);
+    margin-left: 35% !important;
+    margin-top: -27.5% !important;
+    text-decoration: none;
+}
+
+#f_blog{
+    margin-top: -24.5% !important;
+}
+
+#f_contact{
+    margin-top: -21.5% !important;
+}
+
+#f_services{
+    margin-top: -18.5% !important;
+}
+
+.actualites h3{
+    margin-left: 62% ;
+}
+
+#pain_au_raisin{
+    margin-top: 2%;
+}
+
+.nom-actualites{
+    font-size: clamp(0.5rem, 2vw, 8rem) !important;
+    margin-top: -25.5% !important;
+    margin-left: 74% !important;
+}
+
+#pain_au_raisin .nom-actualites{
+    margin-top: -19.5% !important;
+}
+
+.date{
+    font-size: clamp(0.2rem, 1.5vw, 8rem) !important;
+    margin-top: -27.5% !important;
+    margin-left: 74% !important;
+}
+
+#pain_au_raisin .date{
+    margin-top: -21.5% !important;
+}
+
+.actualites div img{
+    margin-top: -27.5% !important;
+    margin-left: 62% !important;
+    width: 10%;
+}
+
+#pain_au_raisin img{
+    margin-top: -21.5% !important;
+}
+
+#f_fin{
+    margin: 0; padding: 0;
+    margin-top: -8% !important;
+    margin-left: 20% !important;
+    font-size: clamp(1rem, 2vw, 10rem);
+}
 }
